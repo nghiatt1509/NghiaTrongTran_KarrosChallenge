@@ -17,7 +17,7 @@ public class ParentPortalPage extends BasePage {
     @FindBy(xpath = "//button[contains(@class, 'btn-filter')]")
     private WebElement btnFilter;
 
-    @FindBy(className = "main-module_tableview")
+    @FindBy(xpath = "//*[@class='main-module_tableview']")
     private WebElement tblStudentRequestAccess;
 
     private WaitHelper waitHelper = new WaitHelper(driver);

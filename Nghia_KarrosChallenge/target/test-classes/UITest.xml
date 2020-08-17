@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="Login Test">
+    <test verbose="2" preserve-order="true" name="UI Test">
         <parameter name="username" value="admin@test.com"></parameter>
         <parameter name="password" value="test123"></parameter>
         <parameter name="browser" value="chrome"></parameter>

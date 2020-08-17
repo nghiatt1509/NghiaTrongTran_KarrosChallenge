@@ -9,10 +9,10 @@ public class LoginPage extends BasePage {
 
     private String pageUrl = "http://ktvn-test.s3-website.us-east-1.amazonaws.com/";
 
-    @FindBy(id = "formHorizontalEmail")
+    @FindBy(xpath = "//input[@id='formHorizontalEmail']")
     private WebElement txtEmail;
 
-    @FindBy(id = "formHorizontalPassword")
+    @FindBy(xpath = "//input[@id='formHorizontalPassword']")
     private WebElement txtPassword;
 
     @FindBy(xpath = "//a[contains(@class, 'login__btn')]")

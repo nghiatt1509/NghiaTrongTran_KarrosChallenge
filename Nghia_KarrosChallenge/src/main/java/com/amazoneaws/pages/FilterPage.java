@@ -10,19 +10,19 @@ import org.openqa.selenium.support.PageFactory;
 
 public class FilterPage extends BasePage {
 
-    @FindBy(id = "formControlsSelect")
+    @FindBy(xpath = "//select[@id='formControlsSelect']")
     private WebElement ddlRequestStatus;
 
-    @FindBy(id = "formHorizontalEmail")
+    @FindBy(xpath = "//input[@id='formHorizontalEmail']")
     private WebElement txtEmail;
 
-    @FindBy(id = "formHorizontalStudentID")
+    @FindBy(xpath = "//input[@id='formHorizontalStudentID']")
     private WebElement txtStudentID;
 
-    @FindBy(id = "formHorizontalStudentFN")
+    @FindBy(xpath = "//input[@id='formHorizontalStudentFN']")
     private WebElement txtStudentFirstName;
 
-    @FindBy(id = "formHorizontalStudentLN")
+    @FindBy(xpath = "//input[@id='formHorizontalStudentLN']")
     private WebElement txtStudentLastName;
 
     private String btnDynamicButtonXpath = "//button[translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = '%s']";
